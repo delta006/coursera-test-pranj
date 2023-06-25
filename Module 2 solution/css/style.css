@@ -1,0 +1,30 @@
+body {
+
+	font-family: sans-serif;
+}
+h1 {
+	text-align: center;
+	color: darkblue;
+}
+.row {
+  padding: 0 15px;
+}
+
+.column{
+	border: 1px;
+	border-color: black;
+	color: red;
+}
+/*laptop*/
+@media (min-width: 1200px) {
+  .column {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+/*mobile*/
+@media (max-width: 767px) {
+        .colmn-sm-12 {
+            float: left;
+            width: 100%
